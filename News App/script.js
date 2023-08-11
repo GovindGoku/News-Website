@@ -72,3 +72,8 @@ function toggleMenu() {
     var navLinks = document.querySelector(".nav-links");
     navLinks.classList.toggle("active");
 }
+
+function toggleDarkMode() {
+    const body = document.body;
+    body.classList.toggle('dark-mode');
+}
