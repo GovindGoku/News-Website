@@ -186,6 +186,12 @@ main {
         padding: 8px 12px;
     }
 
+    .cards-container {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        align-items: start;
+    }
     
 .menu-button {
     display: flex;
