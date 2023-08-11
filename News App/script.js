@@ -67,3 +67,8 @@ searchButton.addEventListener("click", () => {
     curSelectedNav?.classList.remove("active");
     curSelectedNav = null;
 });
+
+function toggleMenu() {
+    var navLinks = document.querySelector(".nav-links");
+    navLinks.classList.toggle("active");
+}
